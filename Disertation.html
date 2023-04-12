@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>#Breanainn?</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;900&display=swap" rel="stylesheet"> 
+	</head>
+
+	<style>
+	
+th, tr, #HomeButtons{
+	padding-left: 20px;
+}
+body {
+  background-image: url("./docs/assets/Celtic.png");
+  background-repeat: repeat-y repeat-x;
+}
+
+#container {
+    background: #3a3a3a;
+    background: rgba(0,0,0,0.8);
+    color: #HHHH;
+}
+#container2 {
+    background: #ffffff;
+    color: #HHHH;
+}
+p {
+	font-size:30px;
+	font-family: 'Cinzel', serif;
+}
+#p1 {
+	font-size:25px;
+	font-family: 'Cinzel', serif;
+}
+#roman {
+	font-size:18px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+	</style>
+	<body>
+	
+		 <!-- Website Banner -->
+		<div id="Banner"class="container-fluid bg-dark p-5 my-0 text-white " >
+		<div class ="row">
+			<div class="col-md-12 col-lg-4">
+				<center ><h1 style="font-family: 'Cinzel', serif;">Breanainn Cahill</h1></center>
+			</div>           
+  
+			<div class="col-md-12 col-lg-6">
+				<center>
+					<table>
+						<thead>
+							<tr>
+								<th><a class="btn btn-dark" href="./index.html" role="button"><h2 style="font-family: 'Cinzel', serif;"> Home </h2> </a></th>
+								<th><a class="btn btn-dark" href="./Content.html"class="btn btn-dark"><h2 style="font-family: 'Cinzel', serif;"> Content </h2></a></th>	
+								<th><a class="btn btn-dark" href="./Info.html"><h2 style="font-family: 'Cinzel', serif;"> Info </h2></a></th>
+							</tr>
+						</thead>
+							<tbody></tbody> 
+					</table>
+				</center>
+			</div>
+			
+			<div class="col-lg-2 ">
+				
+				<center> <a class=" btn  btn-floating m-1" href="https://www.linkedin.com/in/breanainn-cahill-8b1a3a15b/" role="button"> <img  src="./docs/assets/linkedin.png" style="width:30px;height:30px;"> </a>
+				 <a class=" btn  btn-floating m-1" href="https://github.com/breanainnc" role="button"> <img  src="./docs/assets/github.png" style="width:30px;height:30px;">   </a> </center>
+			</div>
+		</div>
+		</div>
+		<!-- Title text -->
+		<div id="container" class="fluid-container  p-5 mt-5 ">
+		<div class ="row">
+			<div class="col-sm-2">
+			</div>
+			<div class="col-sm-8 ">
+				<center>
+					<h1 class="text-white display-1 text-center" style="font-family: 'Cinzel', serif;"><b>Dissertation:<br> A Comparison of a P4-SDN DDoS Defence Solution with ML-based DDoS Defence Solutions </b></h1>
+				</center>
+			</div>	
+		</div>
+		
+		<div class ="row">
+		<div class="col-sm-1"></div>
+			<div class="col-sm-10 col-lg-10 bg-white center" style="border-style:double; border-width:30px;">
+				<h2 class=" display-1 text-center" style="font-family: 'Cinzel', serif;"><b></b></h2>
+					<div class="col-lg-12  col-md-12 mb-4 md-0"style="border-style: double;border-width: 25px;">
+						<h1 class=" display-2 text-center" style="font-family: 'Cinzel', serif;"> Abstract </h1>
+						<p id="roman"> 
+							During my cyber-security masters we were tasked with producing a large project called a dissertation. This article is a short summary of my dissertation which will take you through the key points
+							of the project. Discussing some of the technologies used, a description of the practical work and the testing that was carried out on the novel DDoS defense solution that was created. The							
+							abstract which is a short description what the project is all about is described in the next paragragh.
+							<br><br>
+							This research delves into the topics of Software-defined Networking (SDN), the Programming Protocol-independent Packet Processors (P4) language and Distributed Denial of Service (DDoS) attacks
+							to look at how SDN and programmable data planes can be used to combat such attacks. State-of-the-art research in these areas were examined and with inspiration from the research, a novel approach
+							to detecting Transmission Control Protocol (TCP) SYN flooding attacks was created. 
+							This DDoS detection approach was tested with a dataset that had also been used in testing machine learning based detections approaches. By using the same dataset the different approaches can be
+							compared. One of the goals of this research was to use P4’s programmable data plane to produce an effective DDoS mitigation system and compare the effectiveness of such a system against the more
+							complex approach of machine learning. 
+							This work examined the state-of-the-art research consisting of SDN, DDoS types, DDoS detection systems, machine learning detection systems and multiple P4 TCP SYN flooding specific detection
+							solutions. This led to the creation of a novel DDoS detection system that was tested to provide results that were examined to create a report that adds to state-of-art research.
+
+						</p>
+						
+					</div>
+					<div class="col-lg-12  col-md-12 mb-4 md-0"style="border-style: double;border-width: 25px;">
+						<h1 class=" display-2 text-center" style="font-family: 'Cinzel', serif;"> Discussion of technologies</h1>
+						<br><br>
+						<p id="p1"> Distributed Denial of Service (DDoS) Attacks </p>
+						<p id="roman"> 
+							A Denial of Service (DoS) attack has the aim of overwhelming the victim with requests to the point where the victim can no longer respond. A DoS attack normally comes from one source
+							which means two things, tracing the attacker is easy and one computer is simply not enough to overwhelm the servers in today's world. DDoS attacks have the same goal as DoS attacks but these
+							attacks come from multiple sources and contain spoofed internet protocol (IP) addresses. These multiple devices are normally controlled by one individual and are called botnets. Botnets are
+							an army of devices that a malicious actor uses to carry out an attack. There are plenty of online resources to learn more about DDoS attacks.</p>
+							<br>
+						<p id="p1"> Software-defined Netorking</p>
+						<p id="roman"> 
+							In a traditional network, routers are connected and use protocols to learn the details of their neighbours so that they can operate together. Each network device could be considered to have a fixed 
+							function which means that the functions that these devices perform cannot be changed. Software-defined Networking is about giving the network operators more control over their networks.
+							The control that SDN gives the operator, comes from one of the core concepts of SDN which is the separation of the control plane and the data plane. The control plane is concerned with managing
+							traffic throughout the network while the data plane is concerned with the forwarding of a packet on a particular switch or router found within the network. By separating these planes the network
+							operator no longer has to make changes on each individual device found on the network and instead can use the control plane to configure all the different devices found in the network. 
+
+							The control plane provides a centralised perspective of the network which in turn gives the network operator full view of what is happening inside the network. This leads to advantages
+							in troubleshooting issues in the network. SDN also provides advantages when it comes to scalability. SDN allows the operator to extend resources as needed, which is quite useful in defending
+							against unknown attacks or in times when traffic levels increase. 
+							
+							To learn more about SDN take a look <a href="https://sdn.systemsapproach.org/"> here </a></p>
+						
+							<br>
+						<p id="p1"> Programming Protocol-independent Packet Processors (P4)  </p>
+						<p id="roman"> 
+							The P4 language introduces a programmable data plane to SDN networks which provides the controller of the network with complete control of how the data plane device operates. This allows the network
+							operator to build a network that contains devices that perform the exact functions that are necessary for each particular device. This leads to a performance increase of the data plane devices.
+
+							P4, like most programming languages, requires a compiler. The P4 compiler needs two files to operate. The first of which is the architecture file. This file maps a logical pipeline to the physical
+							pipeline to create an abstraction. The second file is the program file that allows the programming of the pipeline.The logical pipeline allows the same P4 program file to be used on multiple types
+							of hardware. 
+							
+							To learn more about P4 take a look <a href="https://p4.org/"> here </a></p>
+
+						</p>
+						
+					</div>
+					<div class="col-lg-12  col-md-12 mb-4 md-0"style="border-style: double;border-width: 25px;">
+						<h1 class=" display-2 text-center" style="font-family: 'Cinzel', serif;"> Testbed </h1>
+						<p id="roman">
+							The tools used to create and run the testbed are mininet, python, P4 and tcpreplay.  Mininet is a tool that allows the user to build a virtual network. The set up of this network can be
+							programmed in python and is what is used in this case. P4 is the language that will program the switch with the DDoS defensive solution and tcpreplay is a tool that will be used to replay 
+							the traffic dataset </p>
+						<center> <img src="./docs/assets/TestBed.PNG" style="border-style: double;border-width: 25px;max-width: 100%;height: auto;width: auto\9;" ></center>
+						<p id="roman">
+							The network itself contains just two hosts and a switch. The two hosts are called h1 and h2. During the testing of the solution, h1 was designated to send attack traffic while h2 responded
+							with the victims traffic. The one switch found on the network was named s1 and was running the compiled P4 solution. To allow the traffic to flow through the network the p4 file was edited 
+							so that traffic coming from port 1 would be forwarded to port 2 and vice versa. The runNetwork.py file found on my github is a good place to start to understand the code behind this set up.
+							<a href="https://github.com/breanainnc/Testbed-for-p4-based-TCP-flood-detection/blob/main/runNetwork.py"> runNetwork.py </a></p>
+					</div>
+					<div class="col-lg-12  col-md-12 mb-4 md-0"style="border-style: double;border-width: 25px;">
+						<h1 class=" display-2 text-center" style="font-family: 'Cinzel', serif;"> DDoS Defence </h1>
+						<p id="p1"> How the Defence works: </p>
+						<p id="roman">
+							The system revolves around the idea that each TCP flow should be given a score. The higher the score the more likely it is to be considered abnormal. The score for each flow will start with 0.
+							When a packet such as SYN or SYN/ACK is sent, the score increments. When an ACK or a PSH/ACK frame is sent the score decrements unless that score is 0. If it is 0 the score will remain the same.
+							Furthermore, if one of the various packets that relates to resetting the connection is sent the score returns to 0. This resetting should help legitimate connections who have a bad connection.
+							</p>
+							<center><img src="./docs/assets/FlagScoring.PNG" style="border-style: double;border-width: 25px; max-width: 100%;height: auto;width: auto\9;"></center>
+						<p id="roman">
+							Once the score of a connection reaches a certain value such as 8 for example, the connection will be considered abnormal. The amount of abnormal connections that are found are then stored and
+							once the amount of abnormal connection reaches a certain threshold, an attack is detected. Therefore to proceed with this defense system two thresholds were tested which was the score threshold 
+							and the abnormal connection threshold.
+						</p>
+						<p id="p1"> Threshold Testing: </p>
+						<p id="roman">
+							Different score thresholds were tested with different parts of the traffic dataset to determine the best score threshold. The same two benign traffic sets and three attack traffic sets from
+							the initial solution were used during these tests. Score thresholds between 6 and 12 were tested with the five sets of traffic.  The table below shows the abnormal connections found in each set
+							using different score thresholds.</p>
+							<center><img src="./docs/assets/ScoreThresholdTable.PNG" style="border-style: double;border-width: 25px; max-width: 100%;height: auto;width: auto\9;"></center>
+						<p id="roman">
+							These initial results show that this scoring system seems to work quite well and during attack traffic there are a lot more abnormal connections. While these results show that with lower score
+							thresholds more abnormal connections will be detected and vice versa, this table does not display the percentage of abnormal connections compared to total connections found in each case.  
+							The table below shows contains the information that was found. </p>
+							<center><img src="./docs/assets/ScoreThresholdChart.PNG" style="border-style: double;border-width: 25px; max-width: 100%;height: auto;width: auto\9;"></center>
+						<p id="roman">
+							Due to scores 6 and 7 detecting over 10 percent of the benign traffic as abnormal, both these scores were decided to be too strict and ultimately would produce too many false positives. 
+							On the other end of the scale both the thresholds of 11 and 12 detect a low level of false positives in the benign traffic but detect a lower level of abnormal connections in the attack traffic.
+							Therefore the best threshold score seems to be between 8 and 10, because 8 captures the most attack traffic it was deemed the best choice. </p>
+						<p id="roman">
+							To test the different abnormal connection thresholds (the value of AbnrmlMAX), it was decided that a percentage of the new connections would be used to test if there is an ongoing attack. The values
+							of 8, 7, 6 and 5 were used to test the best choice for the AbnrmlMAX. They were chosen because  the number of abnormal connections found during the period of 50 new connections should be a percentage
+							that sits between 10 and 20 percent of the total new connections. This was decided because the chosen score threshold of 8 detects less than 10 percent of benign traffic as abnormal. The values 
+							chosen represent 16, 14, 12 and 10 percent of the total new connections. 
+						</p>
+						<p id="roman">
+							In the case of all the various AbnrmlMAX thresholds, in most of the attack traffic sets only around 2 percent of the attack traffic made it through the defence mechanism. Traffic sets 6, 9 and 12
+							reported vastly different results to the other sets with a high percentage of attack traffic getting through. Using a lower AbnrmlMAX value did improve the results but over 40 percent of attack
+							traffic still made it through using an AbnrmlMAX value of 5 in traffic sets 9 and 12. The explanation for this relates to another form of TCP flooding attack that is used in the dataset. TCP ACK 
+							flooding is where a huge amount of ACK messages are sent to the victim. The victim then must process each of these ACK  requests which leads to the victim becoming overwhelmed. Due to ACK messages
+							decreasing the score of a flow in the novel solution, this form of attack circumvents the defence mechanism. The possible solution of this problem is discussed in the conclusion section.  <p>
+						<p id="p1"> Limitations: </p>
+						<p id="roman">
+							The biggest limitation of this novel solution is with regard to testing. First off this solution has only been tested with the CAIDA 2007 dataset. To perform further analysis on this solution
+							would have to be tested using multiple types of datasets. This would provide more information regarding the accuracy of the solution against TCP SYN flooding attacks.  
+							<br><br>
+							Another two forms of testing that could have potentially been performed is testing of the window size and the use of a time interval. The window size refers to the amount of new connections that are
+							made before checking the amount of abnormal connections that have been made. Initially a window size of 25 new connections was briefly tested but seemed too small to be useful. To further test the
+							window size, different sizes could be tested, although 50 did seem to work quite well. Further tests could be performed by replacing the new connection method with a time period that checks the
+							amount of abnormal connections that were found in a time frame. The new connections method was chosen due to it being more closely tied to the traffic. 
+							<br><br>
+							The register that stores the scores of the IP addresses has a size of 2 to the power of 22 while the total number of possible IP addresses sits at 2 to the power of 32. This means there is a small
+							chance of 2 IP addresses having the same hash value. To improve the chances that this would not happen, the register size could be increased but the performance of the solution would suffer.
+							Conversely the register size could be decreased to improve performance. Trying to determine the best size for the registers is a difficult problem and would require real world testing to determine
+							which size is the most practical. 
+							<br><br>
+							What is meant by real world testing? Real world testing is the idea that there are several VMs or devices performing different functions. For example, one device would play the attack traffic,
+							another the response traffic, one device for the controller and a production grade software switch would operate on its own VM or device. By performing this kind of testing, it would reveal the
+							true throughput and latency of using this solution. </p>
+
+					</div>
+					<div class="col-lg-12  col-md-12 mb-4 md-0"style="border-style: double;border-width: 25px;">
+						<h1 class=" display-2 text-center" style="font-family: 'Cinzel', serif;"> Conclusion </h1>
+						<p id="p1"> Machine Learing </p>
+						<p id="roman">
+							Machine learning (ML) is a subfield of computer science that relies on the use of a dataset and a training algorithm that produces a statistical model. There are various subcategories found
+							within this subfield. Supervised learning is a form of machine learning that works with a dataset of labelled examples and unsupervised learning works with unlabelled data. Semi-supervised learning
+							works with both forms of data and reinforcement learning works within the environment and is capable of perceiving changes in its environment. 
+							<br><br>
+							ML itself is a subcategory of artificial intelligence which can be defined as the performing of tasks that humans would have traditionally performed. Artificial intelligence is considered as
+							mimicking human behaviour and has the goal of ultimately producing a general intelligence that is indistinguishable from a human. Machine learning is a part of this goal and is used to learn from
+							previous data to make decisions. 
+							<br><br>
+							Systems using ML have produced many advantages to humans in a wide range of fields.  Humans have benefited from these systems from advances that have been made in the field of medicine. The 
+							field of genetics has used such systems to discover the various genes that are associated with diseases. ML systems have been used to create prescription drugs and to interpret complicated medical 
+							scans. ML’s skills in pattern recognition facilitate these functions. 
+							<br><br>
+							There are further developments in various fields such as automation with regards to transportation and industries. Anomaly detection is also performed by ML systems to discover fraudulent activities 
+							found in the banking world. The world of security has also been affected by these systems with regards to facial recognition or the detection of cyber attacks.
+							<br><br>
+							Ultimately machine learning has proved to be a quite useful tool to humanity in a large number of fields. The field of focus here is of course cybersecurity, specifically its use in the detection of
+							DDoS attacks. In the following sections, machine learning algorithms that are used to detect TCP SYN flooding attacks are discussed before comparing them with the novel P4 solution found within this
+							research. 
+
+						</p>
+						<p id="p1"> P4 solution and Machine Learning: A Comparison </p>
+						<p id="roman">
+							The accuracy, performance and effectiveness of the machine learning TCP SYN flood defence mechanisms is quite hard to beat. The KNN algorithm claims to mitigate over 96 percent of the attack traffic
+							Legitimate traffic is also barely affected by the mechanisms and the latency remains low when the right window size has been determined. If the traffic sets of 6, 12 and 9 are not considered
+							the results of the novel P4 solution are similar. A comparison between the performance (bandwidth/latency) of the ML systems and the P4 solution is difficult because in paper used for comparison, 
+							their KNN algorithm is tested in a real world environment with a seperate devices used for the switch, controller, attacker and victim. The P4 solution does lead to a significant drop in throughput
+							but the VM is playing the part of the switch, victim and attacker. Furthermore,	the BMv2 switch is considered to be considerably slower with relation to throughput and latency than that of a 
+							production grade software switch.
+							<br><br>
+							A considerable amount of time must go into optimising and training the ML mitigation system to get the mechanism to function correctly. The threshold values must be calculated and may differ from
+							network to network. The novel P4 solution needed some initial testing but is deployable from the outset once the threshold values and scoring system has been optimised, as the solution should work
+							on a variety of networks as it is based on the correct functioning of the TCP protocol. The complexity of the ML strategies also increases the difficulty of understanding the mechanism and
+							troubleshooting may require a third party. 
+							<br><br>
+							The window/time period of the ML mechanisms needs to be at the correct value, if too large there is too much congestion on the controllers channel. This south bound channel issue needs to be
+							carefully managed to ensure that the congestion does not degrade the network. Conversely the novel solution completely runs on the data plane and does not need any interaction from the controller
+							to perform its functioning, which eliminates the risk of the south bound channel becoming overwhelmed. 
+							<br><br>
+							ML systems provide great value and can be used to detect issues quickly with great degrees of accuracy.  They provide many benefits in dealing with problems that traditional software cannot overcome.
+							In cases where the problem is too complex, constantly changing, an unstudied phenomenon or is cost-effective, ML algorithms are recommended. Conversely in situations where the problem can be solved
+							using traditional software or a simple heuristic would work well, it is recommended against. One could argue for either in the case of TCP SYN attacks but it seems that an approach such as the novel
+							solution found in this research can provide defence against TCP SYN flooding attacks.  
+							<br><br>
+							The P4 programming language is still relatively new but the control that it gives network operators and the potential for innovation is high. As the popularity of the language increases so too should
+							learning resources which in turn should lead to innovative solutions to various problems that could be shared and used to fight against all kinds of network attacks. The language allows users to
+							strip away any unnecessary or unused protocols from their network which improves the network's performance and simplifies troubleshooting of their network.  
+							<br><br>
+							In the future it may be possible for the production of a P4 solution that can deal with network/transport layer attacks that can be combined with ML solutions that run on the controller that can be
+							used to detect application layer attacks. For example while the P4 solution deals with network/transport layer flows and the legitimate flows could be further scrutinised and packets could be sampled
+							by looking at packet size or randomly sampled, to allow ML systems to detect whether this flow is performing unusual requests.
+							<br><br>
+							Ultimately P4 programming introduces an exciting new area of research to network security with the potential for cost effective solutions to be created for many forms of attack. That being said,
+							ML solutions are not going anywhere and the combination of the two may provide a new level of defence that attackers may struggle to overcome		
+						</p>
+						<p id="p1"> Final Words </p>
+						<p id="roman">
+							This article contains some of the work contained in the dissertation but there is also alot of information that is left out. If you are interested in reading more of the dissertation, a pdf can be downloaded
+							from my github page. There is also a lack of information on the python code behind the testbed and the P4 code. In the pdf you can find a detailed description of how both work and 
+							the github contains the code in full. I hope you enjoyed the summary of this work. <a href="https://github.com/breanainnc/Testbed-for-p4-based-TCP-flood-detection"> Link to github page </a>
+							
+						</p>
+					</div>
+			</div>
+		
+		</div>
+	</div>
+				<!-- Footer -->
+		<div class="fluid-container mt-5 bg-dark">
+			<footer class="text-center text-lg-start text-white" >
+				<!-- Grid container -->
+				<div class="container p-4 pb-0">
+					<!-- Section: Links -->
+					<section class="">
+						
+						<!--Grid row-->
+						<div class="row">
+							
+							<!--Grid column-->
+							<div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+								<h5 class="text-uppercase" style="font-family: 'Cinzel', serif;">Quick Links:</h5>
+							</div>
+							
+							<!--Grid column-->
+							<div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+								<h5 class="text-uppercase"style="font-family: 'Cinzel', serif;">C# tutorials</h5>
+									<ul class="list-unstyled mb-0">
+										<li>
+											<a href="#!" class="text-white">Link 1</a>
+										</li>
+										<li>
+											<a href="#!" class="text-white">Link 2</a>
+										</li>
+										<li>
+											<a href="#!" class="text-white">Link 3</a>
+										</li>
+										<li>
+											<a href="#!" class="text-white">Link 4</a>
+										</li>
+									</ul>
+							</div>
+							
+							<!--Grid column-->
+							<div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+								<h5 class="text-uppercase"style="font-family: 'Cinzel', serif;">Netorking Tutorials</h5>
+									<ul class="list-unstyled mb-0">
+										<li>
+											<a href="#!" class="text-white">Link 1</a>
+										</li>
+										<li>
+											<a href="#!" class="text-white">Link 2</a>
+										</li>
+										<li>
+											<a href="#!" class="text-white">Link 3</a>
+										</li>
+										<li>
+											<a href="#!" class="text-white">Link 4</a>
+										</li>
+									</ul>
+							</div> 
+						</div>
+					</section>
+					<hr class="mb-4" />
+
+						<!-- Section: CTA -->
+						<section class="">
+							<p class="d-flex justify-content-center align-items-center">
+								<span class="me-3">Enjoy the Content</span>
+							</p>
+						</section>
+
+					<hr class="mb-4" />
+
+						<!-- Section: Social media -->
+						<section class="mb-4 text-center">
+							<!-- LinkedIn -->
+							<a class="btn  btn-floating m-1" href="https://www.linkedin.com/in/breanainn-cahill-8b1a3a15b/" role="button">
+								<img src="./docs/assets/linkedin.png" style="width:50px;height:50px;"> 
+							</a>
+							<!-- Github -->
+							<a class="btn  btn-floating m-1" href="https://github.com/breanainnc" role="button">
+								<img src="./docs/assets/github.png" style="width:50px;height:50px;"> 
+							</a>
+						</section>
+				</div>
+
+				<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)" >
+				</div>
+			</footer>
+		</div>		
+	</body>
+</html>
